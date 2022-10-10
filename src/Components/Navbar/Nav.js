@@ -37,7 +37,7 @@ export const Nav = () => {
                         <ul className="flex items-center hidden space-x-8 lg:flex">
                             <li>
                                 <NavLink
-                                    to="/"
+                                    to="/home"
                                     aria-label="Our product"
                                     title="Our product"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -163,7 +163,7 @@ export const Nav = () => {
                                         <ul className="space-y-4">
                                             <li>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/home"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
