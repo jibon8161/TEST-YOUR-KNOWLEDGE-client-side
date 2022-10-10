@@ -47,17 +47,17 @@ export const Nav = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/quiz"
+                                    to="/topics"
                                     aria-label="Our product"
                                     title="Our product"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                                 >
-                                    Quiz
+                                    Topics
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
-                                    to="/"
+                                    to="/statics"
                                     aria-label="Product pricing"
                                     title="Product pricing"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -183,17 +183,17 @@ export const Nav = () => {
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    to="/quiz"
+                                                    to="/topics"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                                 >
-                                                    Quiz
+                                                    Topics
                                                 </NavLink>
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/statics"
                                                     aria-label="Product pricing"
                                                     title="Product pricing"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

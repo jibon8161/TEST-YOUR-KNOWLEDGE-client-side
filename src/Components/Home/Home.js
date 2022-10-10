@@ -4,7 +4,7 @@ import Quiz from '../Quiz/Quiz';
 
 
 const Home = () => {
-    // const allQuiz = useContext(QuizContext)
+    const allQuiz = useContext(QuizContext)
 
 
     return (
@@ -18,11 +18,7 @@ const Home = () => {
                 </div>
 
             </div>
-            {/* {
-
-                allQuiz.data.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
-
-            } */}
+       
 
             <Quiz></Quiz>
 
