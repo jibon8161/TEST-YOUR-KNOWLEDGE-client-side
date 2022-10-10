@@ -47,7 +47,7 @@ export const Nav = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/"
+                                    to="/quiz"
                                     aria-label="Our product"
                                     title="Our product"
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -63,6 +63,16 @@ export const Nav = () => {
                                     className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                                 >
                                     Statics
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to="/blog"
+                                    aria-label="Product pricing"
+                                    title="Product pricing"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                >
+                                    Blog
                                 </NavLink>
                             </li>
 
@@ -173,7 +183,7 @@ export const Nav = () => {
                                             </li>
                                             <li>
                                                 <NavLink
-                                                    to="/"
+                                                    to="/quiz"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

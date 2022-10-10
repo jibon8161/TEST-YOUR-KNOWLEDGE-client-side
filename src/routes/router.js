@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../Components/Home/Home";
 import Main from "../Components/Main/Main";
+import Quiz from "../Components/Quiz/Quiz";
 
 
 export const router = createBrowserRouter([
@@ -23,6 +24,12 @@ export const router = createBrowserRouter([
 
                 path: '/home',
                 element: <Home></Home>
+
+            },
+            {
+
+                path: '/quiz',
+                element: <Quiz></Quiz>
 
             },
 

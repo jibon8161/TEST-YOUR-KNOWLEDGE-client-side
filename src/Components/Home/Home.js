@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { QuizContext } from '../Main/Main';
+import Quiz from '../Quiz/Quiz';
+
 
 const Home = () => {
+    // const allQuiz = useContext(QuizContext)
+
+
     return (
         <div>
             <div className='flex justify-around mt-8 border'>
@@ -12,6 +18,14 @@ const Home = () => {
                 </div>
 
             </div>
+            {/* {
+
+                allQuiz.data.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
+
+            } */}
+
+            <Quiz></Quiz>
+
         </div>
     );
 };
