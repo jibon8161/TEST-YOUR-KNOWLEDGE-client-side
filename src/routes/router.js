@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Blog from "../Components/Blog/Blog";
 import Statics from "../Components/Chart/Statics";
 import Home from "../Components/Home/Home";
 import Main from "../Components/Main/Main";
@@ -46,6 +47,12 @@ export const router = createBrowserRouter([
 
                 path: '/statics',
                 element: <Statics></Statics>
+
+            },
+            {
+
+                path: '/blog',
+                element: <Blog></Blog>
 
             },
 
