@@ -9,7 +9,7 @@ const Quiz = () => {
 
 
     return (
-        <div className='lg:grid grid-cols-3 ml-44 gap-5 mt-5 shadow-2xl'>
+        <div className='lg:grid grid-cols-3 lg:ml-44 gap-5 lg:mt-5 shadow-2xl lg:w-[1100px] ml-12 mt-5 '>
             {
 
                 allQuiz.data.map(quiz => <SingleQuiz key={quiz.id} quiz={quiz}></SingleQuiz>)

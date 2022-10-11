@@ -9,7 +9,7 @@ export const Nav = () => {
             <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="relative flex items-center justify-between">
                     <div className="flex items-center">
-                        <NavLink  
+                        <NavLink
                             to="/"
                             aria-label="company"
                             title="Jibon"
@@ -34,7 +34,7 @@ export const Nav = () => {
                                 test-your-knowledge
                             </span>
                         </NavLink>
-                        <ul className="flex items-center hidden space-x-8 lg:flex">
+                        <ul className=" items-center hidden space-x-8 lg:flex">
                             <li>
                                 <NavLink
                                     to="/home"
@@ -78,7 +78,7 @@ export const Nav = () => {
 
                         </ul>
                     </div>
-                    <ul className="flex items-center hidden space-x-8 lg:flex">
+                    <ul className=" items-center hidden space-x-8 lg:flex">
                         <li>
                             <NavLink
                                 to="/"
@@ -104,7 +104,7 @@ export const Nav = () => {
                         <button
                             aria-label="Open Menu"
                             title="Open Menu"
-                            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
+                            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline mt-60"
                             onClick={() => setIsMenuOpen(true)}
                         >
                             <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
