@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleQuestions from '../SingleQuestions/SingleQuestions';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Details = () => {
     const details = useLoaderData()
@@ -22,63 +25,64 @@ const Details = () => {
 
         if (ans === questions[0]?.correctAnswer) {
 
-            alert('correct')
+           
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[1]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[2]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[3]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[4]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[5]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[6]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[7]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[8]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[9]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
         else if (ans === questions?.[10]?.correctAnswer) {
 
-            alert('correct')
+            toast.dark('Your Answer is Correct')
 
         }
-    
+
         else {
 
-            alert('false')
+            toast.dark('Your Answer is Wrong')
         }
 
     }
@@ -89,7 +93,7 @@ const Details = () => {
         <div>
             <div>
                 <h1 className='text-4xl mt-5 text-purple-700 font-bold'>Questions about {name} </h1>
-            
+
                 <div>
                     {
 
