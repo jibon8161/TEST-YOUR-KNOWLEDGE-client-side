@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
-import { QuizContext } from '../Main/Main';
+import React from 'react';
+
 import Quiz from '../Quiz/Quiz';
 
 
 const Home = () => {
-    const allQuiz = useContext(QuizContext)
+
 
 
     return (

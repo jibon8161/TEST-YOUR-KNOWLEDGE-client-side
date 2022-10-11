@@ -1,50 +1,124 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import SingleQuestions from '../SingleQuestions/SingleQuestions';
 
 const Details = () => {
     const details = useLoaderData()
-    console.log(details)
+
     const { name, questions } = details.data
+
+    // let correct = []
+    // console.log(questions)
+
+
+    const [answer, setAnswer] = useState([])
+    const correctBtn = (ans) => {
+        setAnswer(ans)
+        console.log(ans)
+
+
+        //         questions.forEach(element => {
+
+        //              correct = element.correctAnswer
+
+
+        //         });
+
+
+
+        if (ans === questions[0]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[1]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[2]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[3]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[4]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[5]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[6]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[7]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[8]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[9]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+        else if (ans === questions?.[10]?.correctAnswer) {
+
+            alert('correct')
+
+        }
+    
+        else {
+
+            alert('false')
+        }
+
+    }
 
 
 
     return (
         <div>
             <div>
-
                 <h1 className='text-4xl mt-5 text-purple-700 font-bold'>Questions about {name} </h1>
-                <div className='flex '>
-
-                    <div >
-                        {
-                            questions.map(question =>
-
-                                (<h1 className='mt-5'>Quiz 1:{question.question}</h1>))
-
-                        }
-
+                {/* <div className='border bg-red-400'>
+                    <div>
+                        <h1>{questions[0].question}</h1>
                     </div>
                     <div>
-                        <button className='ml-5 mt-5'>de</button>
+                        <h1>{questions[0].options[0]}</h1>
+                        <h1 onClick={correct}>{questions[0].options[1]}</h1>
+                        <h1>{questions[0].options[2]}</h1>
+                        <h1>{questions[0].options[3]}</h1>
+
                     </div>
 
-                </div>
-                {/* <div className=''>
 
-
-                    <input type="checkbox" id={questions?.[0]?.id} name="0" value="0"></input>
-                    <label for="0"> {questions?.[0]?.options?.[0]}</label><br></br>
-
-                    <input type="checkbox" id={questions?.[1]?.id} name="0" value="0"></input>
-                    <label for="0"> {questions?.[0]?.options?.[1]}</label><br></br>
-
-                    <input type="checkbox" id={questions?.[2]?.id} name="0" value="0"></input>
-                    <label for="0"> {questions?.[0]?.options?.[2]}</label><br></br>
-
-                    <input type="checkbox" id={questions?.[3]?.id} name="0" value="0"></input>
-                    <label for="0"> {questions?.[0]?.options?.[3]}</label><br></br>
 
                 </div> */}
+                <div>
+                    {
+
+                        questions.map(ques => <SingleQuestions key={ques.id} question={ques} correctBtn={correctBtn}></SingleQuestions>)
+
+
+                    }
+                </div>
+
 
             </div>
         </div>
