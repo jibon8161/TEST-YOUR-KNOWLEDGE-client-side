@@ -13,7 +13,7 @@ const Home = () => {
         <div>
             <div className='lg:flex justify-around lg:mt-5 border mt-16'>
                 <div >
-                    <img className='w-[700px] h-48 rounded-2xl shadow-2xl' src="https://cdn.pixabay.com/photo/2017/03/12/17/54/quiz-2137664_960_720.jpg" alt="" />
+                    <img className='w-[600px] h-48 rounded-2xl shadow-2xl' src="https://img.lovepik.com/element/40133/8322.png_300.png" alt="" />
 
                 </div>
                 <div>

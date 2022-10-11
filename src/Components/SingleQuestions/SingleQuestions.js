@@ -20,10 +20,10 @@ const SingleQuestions = ({ question, correctBtn }) => {
                 </button>
             </div>
             <div className='lg:grid lg:grid-cols-2 lg:h-32 lg:mt-2 '>
-                <h2 className='bg-purple-100 rounded-full shadow-xl mb-2 text-lg ' onClick={() => correctBtn(question?.options[0])}>  <input type="radio" value="Male" name="gender" /> {question?.options[0]}</h2>
-                <h2 className='bg-purple-100 rounded-full shadow-xl mb-2 text-lg' onClick={() => correctBtn(question?.options[1])}>  <input type="radio" value="Male" name="gender" /> {question?.options[1]}</h2>
-                <h2 className='bg-purple-100 rounded-full shadow-xl text-lg' onClick={() => correctBtn(question?.options[2])}>  <input type="radio" value="Male" name="gender" /> {question?.options[2]}</h2>
-                <h2 className='bg-purple-100 rounded-full shadow-xl text-lg' onClick={() => correctBtn(question?.options[3])}>  <input type="radio" value="Male" name="gender" /> {question?.options[3]}</h2>
+                <h2 className='bg-purple-100 rounded-full shadow-xl mb-2 text-lg hover:bg-purple-300' onClick={() => correctBtn(question?.options[0])}>  <input type="radio" value="Male" name="gender" /> {question?.options[0]}</h2>
+                <h2 className='bg-purple-100 rounded-full shadow-xl mb-2 text-lg  hover:bg-purple-300' onClick={() => correctBtn(question?.options[1])}>  <input type="radio" value="Male" name="gender" /> {question?.options[1]}</h2>
+                <h2 className='bg-purple-100 rounded-full shadow-xl text-lg  hover:bg-purple-300' onClick={() => correctBtn(question?.options[2])}>  <input type="radio" value="Male" name="gender" /> {question?.options[2]}</h2>
+                <h2 className='bg-purple-100 rounded-full shadow-xl text-lg  hover:bg-purple-300' onClick={() => correctBtn(question?.options[3])}>  <input type="radio" value="Male" name="gender" /> {question?.options[3]}</h2>
 
             </div>
         </div >
