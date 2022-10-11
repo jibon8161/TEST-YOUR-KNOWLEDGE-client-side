@@ -17,12 +17,6 @@ const Details = () => {
         console.log(ans)
 
 
-        //         questions.forEach(element => {
-
-        //              correct = element.correctAnswer
-
-
-        //         });
 
 
 
@@ -95,21 +89,7 @@ const Details = () => {
         <div>
             <div>
                 <h1 className='text-4xl mt-5 text-purple-700 font-bold'>Questions about {name} </h1>
-                {/* <div className='border bg-red-400'>
-                    <div>
-                        <h1>{questions[0].question}</h1>
-                    </div>
-                    <div>
-                        <h1>{questions[0].options[0]}</h1>
-                        <h1 onClick={correct}>{questions[0].options[1]}</h1>
-                        <h1>{questions[0].options[2]}</h1>
-                        <h1>{questions[0].options[3]}</h1>
-
-                    </div>
-
-
-
-                </div> */}
+            
                 <div>
                     {
 
