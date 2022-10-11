@@ -104,7 +104,7 @@ export const Nav = () => {
                         <button
                             aria-label="Open Menu"
                             title="Open Menu"
-                            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline mt-60"
+                            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline mt-64"
                             onClick={() => setIsMenuOpen(true)}
                         >
                             <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -125,7 +125,7 @@ export const Nav = () => {
                         {isMenuOpen && (
                             <div className="absolute top-0 left-0 w-full">
                                 <div className="p-5 bg-white border rounded shadow-sm">
-                                    <div className="flex items-center justify-between mb-4">
+                                    <div className="flex items-center justify-between">
                                         <div>
                                             <NavLink
                                                 to="/"

@@ -25,12 +25,12 @@ const Statics = () => {
            
             {/* <ResponsiveContainer width="100%" height="100%"> */}
                 <ComposedChart
-                    width={400}
+                    width={350}
                     height={400}
                     data={data.data}
                     margin={{
                         top: 40,
-                        right: 30,
+                        right: 20,
                         bottom: 20,
                         left: 20,
                     }}
