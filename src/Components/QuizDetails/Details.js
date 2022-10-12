@@ -17,7 +17,7 @@ const Details = () => {
     const [answer, setAnswer] = useState([])
     const correctBtn = (ans) => {
         setAnswer(ans)
-        console.log(ans)
+      
 
 
 

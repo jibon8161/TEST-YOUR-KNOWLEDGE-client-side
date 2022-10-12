@@ -1,9 +1,9 @@
 #This Project is called  TEST-YOUR-KNOWLEDGE
-## _Faith is more than getting a theological quiz right._
+## _Be ready. Be smart. Be noticed!._
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid]](https://unique-dolphin-d54a37.netlify.app/)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 
 TEST-YOUR-KNOWLEDGE is mobile-ready,And user Friendly 
 

@@ -14,6 +14,7 @@ import {
     Legend,
     Scatter,
   
+  
 } from 'recharts';
 
 const Statics = () => {
@@ -21,9 +22,9 @@ const Statics = () => {
     const data = useContext(QuizContext)
 
     return (
-        <div className='w-[100%] h-[100%] mt-8'>
+        <div className='w-[100%] h-[100%] mt-8 '>
            
-            {/* <ResponsiveContainer width="100%" height="100%"> */}
+            {/* <ResponsiveContainer width={100} height={100}*/}
                 <ComposedChart
                     width={350}
                     height={400}
