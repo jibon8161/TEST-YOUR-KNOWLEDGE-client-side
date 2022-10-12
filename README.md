@@ -9,6 +9,7 @@ TEST-YOUR-KNOWLEDGE is mobile-ready,And user Friendly
 
 - Its a Single Page Website So its fast And Organised
 - It's fully Responsive With mobile Devices
+- This site is made with react router and tailwind, also i use react toastify, i use rechart for show statistics.
 - ✨It has a Blog Section for  More Knowledge
 
 
