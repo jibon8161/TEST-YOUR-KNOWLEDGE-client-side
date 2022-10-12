@@ -1,7 +1,7 @@
 #This Project is called  TEST-YOUR-KNOWLEDGE
 ## _Be ready. Be smart. Be noticed!._
 
-[![N|Solid]](https://unique-dolphin-d54a37.netlify.app/)
+[Live Link](https://unique-dolphin-d54a37.netlify.app/)
 
 
 
